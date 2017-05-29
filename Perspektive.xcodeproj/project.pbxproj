@@ -14,6 +14,12 @@
 		331BADDB1EB5586000CC6656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331BADD91EB5586000CC6656 /* LaunchScreen.storyboard */; };
 		331BADE61EB5586000CC6656 /* PerspektiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331BADE51EB5586000CC6656 /* PerspektiveTests.swift */; };
 		331BADF11EB5586000CC6656 /* PerspektiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331BADF01EB5586000CC6656 /* PerspektiveUITests.swift */; };
+		331BADFF1EB5587500CC6656 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331BADFE1EB5587500CC6656 /* Data.swift */; };
+		33AE918A1ECB2888000FBE7E /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AE91891ECB2888000FBE7E /* TutorialViewController.swift */; };
+		33ED01191EC58C1400DE3E36 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33ED01151EC58C1400DE3E36 /* Quicksand-Bold.ttf */; };
+		33ED011A1EC58C1400DE3E36 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33ED01161EC58C1400DE3E36 /* Quicksand-Light.ttf */; };
+		33ED011B1EC58C1400DE3E36 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33ED01171EC58C1400DE3E36 /* Quicksand-Medium.ttf */; };
+		33ED011C1EC58C1400DE3E36 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33ED01181EC58C1400DE3E36 /* Quicksand-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		331BADEC1EB5586000CC6656 /* PerspektiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerspektiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		331BADF01EB5586000CC6656 /* PerspektiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerspektiveUITests.swift; sourceTree = "<group>"; };
 		331BADF21EB5586000CC6656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		331BADFE1EB5587500CC6656 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		33AE91891ECB2888000FBE7E /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		33ED01151EC58C1400DE3E36 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Bold.ttf"; path = "../../../../../Downloads/fonts/Quicksand/Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		33ED01161EC58C1400DE3E36 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Light.ttf"; path = "../../../../../Downloads/fonts/Quicksand/Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		33ED01171EC58C1400DE3E36 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Medium.ttf"; path = "../../../../../Downloads/fonts/Quicksand/Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		33ED01181EC58C1400DE3E36 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Regular.ttf"; path = "../../../../../Downloads/fonts/Quicksand/Quicksand-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,7 @@
 		331BADC41EB5586000CC6656 = {
 			isa = PBXGroup;
 			children = (
+				33ED01141EC58BC500DE3E36 /* Ressources */,
 				331BADCF1EB5586000CC6656 /* Perspektive */,
 				331BADE41EB5586000CC6656 /* PerspektiveTests */,
 				331BADEF1EB5586000CC6656 /* PerspektiveUITests */,
@@ -99,6 +112,8 @@
 			children = (
 				331BADD01EB5586000CC6656 /* AppDelegate.swift */,
 				331BADD21EB5586000CC6656 /* ViewController.swift */,
+				33AE91891ECB2888000FBE7E /* TutorialViewController.swift */,
+				331BADFE1EB5587500CC6656 /* Data.swift */,
 				331BADD41EB5586000CC6656 /* Main.storyboard */,
 				331BADD71EB5586000CC6656 /* Assets.xcassets */,
 				331BADD91EB5586000CC6656 /* LaunchScreen.storyboard */,
@@ -123,6 +138,18 @@
 				331BADF21EB5586000CC6656 /* Info.plist */,
 			);
 			path = PerspektiveUITests;
+			sourceTree = "<group>";
+		};
+		33ED01141EC58BC500DE3E36 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				33ED01151EC58C1400DE3E36 /* Quicksand-Bold.ttf */,
+				33ED01161EC58C1400DE3E36 /* Quicksand-Light.ttf */,
+				33ED01171EC58C1400DE3E36 /* Quicksand-Medium.ttf */,
+				33ED01181EC58C1400DE3E36 /* Quicksand-Regular.ttf */,
+			);
+			name = Ressources;
+			path = Perspektive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +264,11 @@
 			files = (
 				331BADDB1EB5586000CC6656 /* LaunchScreen.storyboard in Resources */,
 				331BADD81EB5586000CC6656 /* Assets.xcassets in Resources */,
+				33ED011C1EC58C1400DE3E36 /* Quicksand-Regular.ttf in Resources */,
 				331BADD61EB5586000CC6656 /* Main.storyboard in Resources */,
+				33ED01191EC58C1400DE3E36 /* Quicksand-Bold.ttf in Resources */,
+				33ED011A1EC58C1400DE3E36 /* Quicksand-Light.ttf in Resources */,
+				33ED011B1EC58C1400DE3E36 /* Quicksand-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +294,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				331BADD31EB5586000CC6656 /* ViewController.swift in Sources */,
+				331BADFF1EB5587500CC6656 /* Data.swift in Sources */,
+				33AE918A1ECB2888000FBE7E /* TutorialViewController.swift in Sources */,
 				331BADD11EB5586000CC6656 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,8 +452,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LM2ZWJRF67;
 				INFOPLIST_FILE = Perspektive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.philippeibl.Perspektive;
+				PRODUCT_BUNDLE_IDENTIFIER = PhilippEibl.Perspektive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -432,8 +466,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LM2ZWJRF67;
 				INFOPLIST_FILE = Perspektive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.philippeibl.Perspektive;
+				PRODUCT_BUNDLE_IDENTIFIER = PhilippEibl.Perspektive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -516,6 +551,7 @@
 				331BADF71EB5586000CC6656 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		331BADF81EB5586000CC6656 /* Build configuration list for PBXNativeTarget "PerspektiveTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +560,7 @@
 				331BADFA1EB5586000CC6656 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		331BADFB1EB5586000CC6656 /* Build configuration list for PBXNativeTarget "PerspektiveUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +569,7 @@
 				331BADFD1EB5586000CC6656 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
